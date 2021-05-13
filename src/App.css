@@ -1,9 +1,11 @@
 .App {
   text-align: center;
+  font-size: larger;
+  text-size-adjust: 100%;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 80vmin;
   pointer-events: none;
 }
 
@@ -21,7 +23,8 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:white;
+ 
 }
 
 .App-link {
@@ -30,7 +33,7 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(45deg);
   }
   to {
     transform: rotate(360deg);
